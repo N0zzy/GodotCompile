@@ -1,0 +1,9 @@
+{
+  "autoload": {
+    "psr-4": {
+      "": "",
+      "GLPchp\\Compile\\": "src/",
+      "GLPchp\\Compile\\Service\\": "src/Service/"
+    }
+  }
+}

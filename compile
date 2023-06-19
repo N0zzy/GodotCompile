@@ -1,0 +1,9 @@
+#!/usr/bin/php
+<?php
+const COMMAND = "dotnet run --configuration=Debug";
+//windows
+echo "start " . COMMAND . " ... \n\n";
+
+$fp=popen("dotnet run --configuration=Debug","r");
+while (!feof($fp)) echo @fgets($fp, 1024);
+pclose($fp);

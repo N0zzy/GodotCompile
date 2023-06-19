@@ -1,0 +1,16 @@
+<Project Sdk="Peachpie.NET.Sdk/1.1.9">
+    <PropertyGroup>
+        <OutputType>exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <StartupObject>Program.php</StartupObject>
+        <Configuration>Debug</Configuration>
+        <Optimize>true</Optimize>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Include="Program.php" />
+        <Compile Include="src/**/*.php" />
+    </ItemGroup>
+<!--    <ItemGroup>-->
+<!--        <ProjectReference Include="..\GodotCompile.Library\GodotCompile.Library.csproj" />-->
+<!--    </ItemGroup>-->
+</Project>
