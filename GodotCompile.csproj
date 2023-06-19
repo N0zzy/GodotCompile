@@ -5,6 +5,13 @@
         <StartupObject>Program.php</StartupObject>
         <Configuration>Debug</Configuration>
         <Optimize>true</Optimize>
+        <Version>1.0.0</Version>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <Title>GodotCompile</Title>
+        <Authors>N0zzy</Authors>
+        <Description>GodotCompile utility to generate basic .cs files from php scripts</Description>
+        <PackageProjectUrl>https://github.com/N0zzy/GodotCompile</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/N0zzy/GodotCompile</RepositoryUrl>
     </PropertyGroup>
     <ItemGroup>
         <Compile Include="Program.php" />
