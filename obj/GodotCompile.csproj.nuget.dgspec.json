@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotPhp\\GodotCompile\\GodotCompile.csproj": {}
+  },
+  "projects": {
+    "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotPhp\\GodotCompile.Library\\GodotCompile.Library.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotPhp\\GodotCompile.Library\\GodotCompile.Library.csproj",
+        "projectName": "GLPchp.Compile.PhpParser",
+        "projectPath": "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotPhp\\GodotCompile.Library\\GodotCompile.Library.csproj",
+        "packagesPath": "C:\\Users\\pc-system\\.nuget\\packages\\",
+        "outputPath": "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotPhp\\GodotCompile.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\pc-system\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc-system\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc-system\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\pc-system\\.nuget\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Peachpie.App": {
+              "target": "Package",
+              "version": "[1.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotPhp\\GodotCompile\\GodotCompile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotPhp\\GodotCompile\\GodotCompile.csproj",
+        "projectName": "GodotCompile",
+        "projectPath": "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotPhp\\GodotCompile\\GodotCompile.csproj",
+        "packagesPath": "C:\\Users\\pc-system\\.nuget\\packages\\",
+        "outputPath": "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotPhp\\GodotCompile\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Users\\pc-system\\AppData\\Roaming\\Godot\\mono\\GodotNuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc-system\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc-system\\AppData\\Roaming\\NuGet\\config\\Godot.Offline.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\pc-system\\.nuget\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotPhp\\GodotCompile.Library\\GodotCompile.Library.csproj": {
+                "projectPath": "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotPhp\\GodotCompile.Library\\GodotCompile.Library.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Peachpie.App": {
+              "target": "Package",
+              "version": "[1.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

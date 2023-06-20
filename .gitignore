@@ -1,9 +1,6 @@
-*
+*.*
 !.gitignore
-!/*.php
 !*.php
-!compile
-!compile.json
-!composer.json
-!GodotCompile.csproj
-!GodotCompile.sln
+!*.json
+!*.sln
+!*.csproj
