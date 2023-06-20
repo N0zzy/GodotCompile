@@ -1,2 +1,6 @@
 *
 !.gitignore
+!src
+!compile
+!compile.json
+!composer.json
