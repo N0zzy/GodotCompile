@@ -17,7 +17,7 @@
         <Compile Include="Program.php" />
         <Compile Include="src/**/*.php" />
     </ItemGroup>
-<!--    <ItemGroup>-->
-<!--        <ProjectReference Include="..\GodotCompile.Library\GodotCompile.Library.csproj" />-->
-<!--    </ItemGroup>-->
+    <ItemGroup>
+        <ProjectReference Include="..\GodotCompile.Library\GodotCompile.Library.csproj" />
+    </ItemGroup>
 </Project>
