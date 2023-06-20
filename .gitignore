@@ -4,3 +4,6 @@
 !compile
 !compile.json
 !composer.json
+!GodotCompile.csproj
+!GodotCompile.sln
+!Program.php
