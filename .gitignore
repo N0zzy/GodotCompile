@@ -1,7 +1,7 @@
 *
 !.gitignore
-!/src/*.php
-!/src/**/*.php
+!**/src/*.php
+!**/src/**/*.php
 !compile
 !compile.json
 !composer.json
