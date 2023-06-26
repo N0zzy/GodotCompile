@@ -7,6 +7,8 @@ namespace GLPchp\Compile\Service;
  */
 final class Configuration
 {
+    private string $pathProj = "/Utils/GodotCompile";
+    
     /**
      * @return ConfigurationProperties
      * @throws \Exception
@@ -22,9 +24,14 @@ final class Configuration
      */
     private function getConfigurationProperties(): ConfigurationProperties
     {
-        $path = str_replace("\\", "/", dirname(__DIR__, 2) . '/compile.json');
+        $path = dirname(__DIR__, 2) . $this->pathProj;
+        $path = str_replace("\\", "/", $path . '/compile.json');
+
         if (!file_exists($path)) {
-            $path = str_replace("\\", "/", dirname(__DIR__, 5) . '/compile.json');
+
+            $path = dirname(__DIR__, 5) . $this->pathProj;
+            $path = str_replace("\\", "/", $path . '/compile.json');
+
             if (!file_exists($path)) {
                 throw new \Exception("path not exists {$path}");
             }          

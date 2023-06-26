@@ -17,7 +17,8 @@
         <Compile Include="Program.php" />
         <Compile Include="src/**/*.php" />
     </ItemGroup>
+    
     <ItemGroup>
-        <ProjectReference Include="..\GodotCompile.Library\GodotCompile.Library.csproj" />
+        <PackageReference Include="GLPchp.Compile.PhpParser" Version="1.0.0" />
     </ItemGroup>
 </Project>

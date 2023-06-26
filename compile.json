@@ -1,7 +1,7 @@
 {
   "prefix": "Ux",
   "path": {
-    "input": "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotLibrary",
-    "output": "E:\\Godot4\\Godot\\GodotPeachpieProject\\GodotApplication"
+    "input": "E:\\Godot4\\Godot\\GDProject\\GDLibrary",
+    "output": "E:\\Godot4\\Godot\\GDProject\\GDApplication"
   }
 }

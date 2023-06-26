@@ -1,7 +1,6 @@
 <?php
 namespace GLPchp\Compile\Service;
 
-
 class App
 {
     public function __construct()

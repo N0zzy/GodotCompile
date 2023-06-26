@@ -7,6 +7,9 @@ namespace GLPchp\Compile\Service;
  */
 final class Parser extends ParserFactory
 {
+    /**
+     * @param string $dir
+     */
     public function __construct()
     {
         parent::__construct();
